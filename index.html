@@ -1,88 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Alek Suti – Electric Propulsion Systems</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; scroll-behavior: smooth; }
-    header { background: #003366; color: white; padding: 20px; text-align: center; }
-    nav {
-      background: #005599; color: white; text-align: center; padding: 10px 0;
-      position: sticky; top: 0; z-index: 1000;
-    }
-    nav a {
-      color: white; text-decoration: none; margin: 0 15px; font-weight: bold;
-    }
-    nav a:hover { text-decoration: underline; }
-    section {
-      padding: 40px 20px; max-width: 900px; margin: auto; background: white;
-      margin-top: 20px; border-radius: 8px;
-    }
-    h2, h3 { color: #003366; }
-    img { width: 100%; max-width: 500px; border-radius: 8px; margin-top: 10px; }
-    iframe { max-width: 100%; margin-top: 10px; }
-    footer { text-align: center; padding: 20px; color: #777; margin-top: 40px; }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Advanced Electric Propulsion Systems for Aviation</h1>
-  <p>From Fault-Tolerant Motor Control to Battery Management in Airborne Applications</p>
-</header>
-
-<nav>
-  <a href="#motors">Motori</a>
-  <a href="#batteries">Batterie</a>
-</nav>
-
-<!-- MOTORI -->
 <section id="motors">
   <h2>🌀 Electric Motor Control</h2>
   <p>
     I work on fault-tolerant control strategies for electric motors used in aeronautical propulsion, focusing on robustness, reliability, and efficiency.
-    This includes Model-Based Design in MATLAB/Simulink and real-time testing with Speedgoat platforms.
   </p>
 
-  <h3>📄 Publications</h3>
-  <ul>
-    <li>Title of paper 1 on motors – Conference/Journal, Year</li>
-    <li>Title of paper 2 on motors – Conference/Journal, Year</li>
-  </ul>
+  <h3 onclick="toggleVisibility('motor-pubs')" style="cursor: pointer;">📄 Publications</h3>
+  <div id="motor-pubs" style="display: none;">
+    <ul>
+      <li>Title of paper 1 – Journal, Year</li>
+      <li>Title of paper 2 – Conference, Year</li>
+    </ul>
+  </div>
 
-  <h3>🖼️ Images</h3>
-  <img src="motor_lab.jpg" alt="Motor Lab Setup">
+  <h3 onclick="toggleVisibility('motor-img')" style="cursor: pointer;">🖼️ Images</h3>
+  <div id="motor-img" style="display: none;">
+    <img src="motor_lab.jpg" alt="Motor Lab Setup" style="width:100%; max-width:500px; border-radius:8px;" />
+  </div>
 
-  <h3>🎥 Video</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+  <h3 onclick="toggleVisibility('motor-vid')" style="cursor: pointer;">🎥 Video</h3>
+  <div id="motor-vid" style="display: none;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+  </div>
 </section>
 
-<!-- BATTERIE -->
-<section id="batteries">
-  <h2>🔋 Battery Management Systems</h2>
-  <p>
-    I develop observer-based algorithms for estimating SOC and SOH in Li-ion batteries. These algorithms are implemented and validated on embedded platforms for aviation-grade reliability.
-  </p>
-
-  <h3>📄 Publications</h3>
-  <ul>
-    <li>Title of paper 1 on batteries – Conference/Journal, Year</li>
-    <li>Title of paper 2 on batteries – Conference/Journal, Year</li>
-  </ul>
-
-  <h3>🖼️ Images</h3>
-  <img src="battery_lab.jpg" alt="Battery Testing Setup">
-
-  <h3>🎥 Video</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
-</section>
-
-<footer>
-  <p>© 2025 Alek Suti</p>
-</footer>
-
-</body>
-</html>
 
 
