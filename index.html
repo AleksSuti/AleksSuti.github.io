@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Alek Suti – Electric Propulsion Systems</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; scroll-behavior: smooth; }
     header { background: #003366; color: white; padding: 20px; text-align: center; }
-    section { padding: 40px 20px; max-width: 900px; margin: auto; background: white; margin-top: 20px; border-radius: 8px; }
+    nav {
+      background: #005599; color: white; text-align: center; padding: 10px 0;
+      position: sticky; top: 0; z-index: 1000;
+    }
+    nav a {
+      color: white; text-decoration: none; margin: 0 15px; font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+    section {
+      padding: 40px 20px; max-width: 900px; margin: auto; background: white;
+      margin-top: 20px; border-radius: 8px;
+    }
     h2 { color: #003366; }
-    footer { text-align: center; padding: 20px; color: #777; }
+    footer { text-align: center; padding: 20px; color: #777; margin-top: 40px; }
   </style>
 </head>
 <body>
@@ -18,6 +29,14 @@
   <h1>Advanced Electric Propulsion Systems for Aviation</h1>
   <p>From Fault-Tolerant Motor Control to Battery Management in Airborne Applications</p>
 </header>
+
+<nav>
+  <a href="#motors">Motori</a>
+  <a href="#batteries">Batterie</a>
+  <a href="#publications">Pubblicazioni</a>
+  <a href="#images">Immagini</a>
+  <a href="#videos">Video</a>
+</nav>
 
 <section id="motors">
   <h2>🌀 Electric Motor Control</h2>
@@ -33,6 +52,28 @@
   </p>
 </section>
 
+<section id="publications">
+  <h2>📄 Publications</h2>
+  <ul>
+    <li>Paper 1 – <em>Title</em>, Conference/Journal, Year</li>
+    <li>Paper 2 – <em>Title</em>, Conference/Journal, Year</li>
+    <!-- Aggiungi i tuoi titoli -->
+  </ul>
+</section>
+
+<section id="images">
+  <h2>🖼️ Images</h2>
+  <p>Photos of lab setups, test benches, or prototypes:</p>
+  <img src="your-image1.jpg" alt="Lab photo" style="width:100%; max-width:500px; border-radius:8px;" />
+  <!-- Puoi aggiungere altre immagini -->
+</section>
+
+<section id="videos">
+  <h2>🎥 Videos</h2>
+  <p>Demo or conference presentation:</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+</section>
+
 <footer>
   <p>© 2025 Alek Suti</p>
 </footer>
@@ -40,4 +81,3 @@
 </body>
 </html>
 
-Aggiorno index.html con due sezioni: motori e batterie
