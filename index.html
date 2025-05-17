@@ -19,7 +19,9 @@
       padding: 40px 20px; max-width: 900px; margin: auto; background: white;
       margin-top: 20px; border-radius: 8px;
     }
-    h2 { color: #003366; }
+    h2, h3 { color: #003366; }
+    img { width: 100%; max-width: 500px; border-radius: 8px; margin-top: 10px; }
+    iframe { max-width: 100%; margin-top: 10px; }
     footer { text-align: center; padding: 20px; color: #777; margin-top: 40px; }
   </style>
 </head>
@@ -33,46 +35,47 @@
 <nav>
   <a href="#motors">Motori</a>
   <a href="#batteries">Batterie</a>
-  <a href="#publications">Pubblicazioni</a>
-  <a href="#images">Immagini</a>
-  <a href="#videos">Video</a>
 </nav>
 
+<!-- MOTORI -->
 <section id="motors">
   <h2>🌀 Electric Motor Control</h2>
   <p>
-    I work on fault-tolerant control strategies for electric motors used in aeronautical propulsion, focusing on robustness, reliability, and efficiency. My work includes Model-Based Design in MATLAB/Simulink and real-time testing with Speedgoat platforms.
+    I work on fault-tolerant control strategies for electric motors used in aeronautical propulsion, focusing on robustness, reliability, and efficiency.
+    This includes Model-Based Design in MATLAB/Simulink and real-time testing with Speedgoat platforms.
   </p>
+
+  <h3>📄 Publications</h3>
+  <ul>
+    <li>Title of paper 1 on motors – Conference/Journal, Year</li>
+    <li>Title of paper 2 on motors – Conference/Journal, Year</li>
+  </ul>
+
+  <h3>🖼️ Images</h3>
+  <img src="motor_lab.jpg" alt="Motor Lab Setup">
+
+  <h3>🎥 Video</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
 </section>
 
+<!-- BATTERIE -->
 <section id="batteries">
   <h2>🔋 Battery Management Systems</h2>
   <p>
-    I develop observer-based algorithms for State of Charge (SOC) and State of Health (SOH) estimation in Li-ion battery systems. These are implemented and tested in embedded environments using NXP microcontrollers, targeting safety-critical applications in aviation.
+    I develop observer-based algorithms for estimating SOC and SOH in Li-ion batteries. These algorithms are implemented and validated on embedded platforms for aviation-grade reliability.
   </p>
-</section>
 
-<section id="publications">
-  <h2>📄 Publications</h2>
+  <h3>📄 Publications</h3>
   <ul>
-    <li>Paper 1 – <em>Title</em>, Conference/Journal, Year</li>
-    <li>Paper 2 – <em>Title</em>, Conference/Journal, Year</li>
-    <!-- Aggiungi i tuoi titoli -->
+    <li>Title of paper 1 on batteries – Conference/Journal, Year</li>
+    <li>Title of paper 2 on batteries – Conference/Journal, Year</li>
   </ul>
-</section>
 
-<section id="images">
-  <h2>🖼️ Images</h2>
-  <p>Photos of lab setups, test benches, or prototypes:</p>
-  <img src="IMG_20241213_193553.jpg" alt="Lab photo" style="width:100%; max-width:500px; border-radius:8px;" />
-  <img src="IMG_20250131_162433.jpg" alt="Lab photo" style="width:100%; max-width:500px; border-radius:8px;" />
-  <img src="IMG_20250131_162443.jpg" alt="Lab photo" style="width:100%; max-width:500px; border-radius:8px;" />
-  </section>
+  <h3>🖼️ Images</h3>
+  <img src="battery_lab.jpg" alt="Battery Testing Setup">
 
-<section id="videos">
-  <h2>🎥 Videos</h2>
-  <p>Demo or conference presentation:</p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  <h3>🎥 Video</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
 </section>
 
 <footer>
@@ -81,4 +84,5 @@
 
 </body>
 </html>
+
 
